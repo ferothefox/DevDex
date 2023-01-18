@@ -1,0 +1,32 @@
+@media screen and (max-width: 700px) {
+  .profile-info-wrapper {
+    padding: 0 !important;
+  }
+
+  .profile-info-name {
+    margin: 0 !important;
+  }
+
+  .profile-banner-color,
+  .profile-banner-image,
+  .profile-info-header {
+    border-radius: 0 !important;
+  }
+
+  .profile-info-header-content-wrapper {
+    flex-direction: column !important;
+  }
+
+  .profile-description {
+    // t r b l
+    margin: 1rem 0 0 0 !important;
+  }
+
+  .profile-info-wrapper {
+    max-width: 100% !important;
+  }
+
+  .profile-display {
+    border-bottom-width: 2px;
+  }
+}

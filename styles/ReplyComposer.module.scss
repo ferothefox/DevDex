@@ -1,0 +1,15 @@
+.reply-composer-tabbed-view {
+  position: relative;
+}
+
+.theme-dark .reply-composer-tabbed-view::before {
+  content: '';
+  position: absolute;
+  background-color: transparent;
+  right: -50px;
+  bottom: 0;
+  height: 20px;
+  width: 50px;
+  border-bottom-left-radius: 0.75rem;
+  box-shadow: -0.75rem 0 0 0 #22242e;
+}

@@ -1,0 +1,60 @@
+.auth-input {
+  transition: 200ms ease;
+}
+
+.auth-input:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(72, 220, 250, 0.25) 0 0 10px, rgba(39, 39, 247, 0.15) 0 4px 20px;
+  border: 2px solid #4488e9;
+}
+
+.auth-input:focus {
+  transform: scale(1.02);
+  box-shadow: rgba(72, 220, 250, 0.25) 0 0 10px, rgba(39, 39, 247, 0.15) 0 4px 20px;
+  border: 2px solid #4488e9;
+}
+
+.auth-button {
+  transition: 200ms ease;
+  border: 2px solid transparent;
+}
+
+.auth-button:focus,
+.auth-button:focus-within {
+  outline: none;
+  border: 0;
+}
+
+.auth-button:focus-within {
+  transition: 200ms ease;
+  transform: scale(1.02);
+  border: 2px solid #4488e9;
+}
+
+.auth-bg {
+  background: url('https://media.discordapp.net/attachments/972239161379680336/1035000869508350022/gradients.png')
+    center center / cover no-repeat;
+  box-shadow: inset 50px 50px 50px #0f1115, inset -50px -50px 50px #0f1115;
+}
+
+.divider-text {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.divider-text:after,
+.divider-text:before {
+  content: '';
+  flex: 1 1 auto;
+  border-bottom: 1px solid #888fa8;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 850px) {
+  .auth-bg {
+    display: none !important;
+    width: 0 !important;
+  }
+}
